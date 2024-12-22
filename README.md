@@ -7,4 +7,12 @@ I am starting this in Julia to figure out *what* I need to learn, and then will 
 
 ## VS Code Setup
 
-git init git commit -m "first commit" git branch -M main git add . git remote add origin [file name] git push -u origin main
+
+## Git starter
+We do the following once we have our folder locall.y
+- git init 
+- git add . 
+- git commit -m "first commit" 
+- git branch -M main 
+- git remote add origin [file name]
+- git push -u origin main
