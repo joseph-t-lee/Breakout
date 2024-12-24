@@ -1,14 +1,10 @@
 using Pkg
-#using ReinforcementLearningEnvironmentAtari
-using ArcadeLearningEnvironment
-println("Test Working")
+include("InteractFunctions.jl")
 
 
-println(getROMList())
+file_names()                        # Testing a function call.
 
+# Run the bash script
+run(`bash ./Type_Test.sh`) 
 
-ale = ALE_new()
-loadROM(ale, "breakout")
-
-
-ALE_del(ale)
+#println(pwd())
